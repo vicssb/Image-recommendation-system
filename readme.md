@@ -19,15 +19,7 @@ O sistema de recomendação por imagens digitais utiliza técnicas de aprendizad
 
 ## Descrição do Desafio
 
-Neste projeto, o objetivo é implementar um sistema de recomendação por imagens digitais utilizando técnicas de aprendizado de máquina. Além disso, será necessário calcular as principais métricas de avaliação de modelos de classificação, como:
-
-- **Acurácia**: Mede a proporção de previsões corretas.
-- **Sensibilidade (Recall)**: Mede a capacidade do modelo de identificar corretamente os casos positivos.
-- **Especificidade**: Mede a capacidade do modelo de identificar corretamente os casos negativos.
-- **Precisão**: Mede a proporção de previsões positivas que são realmente corretas.
-- **F-Score**: Combina precisão e sensibilidade em uma única métrica.
-
-Para realizar os cálculos, será utilizada uma matriz de confusão arbitrária, que servirá como base para entender o funcionamento de cada métrica. O foco principal é compreender e implementar as fórmulas correspondentes a essas métricas, conforme descrito na Tabela 1.
+Neste projeto vamos então desenvolver um modelo capaz de classificar imagens por sua similaridade e gerar resultados para o usuário de um site. Os resultados esperados são direcionados para, por meio de um produto buscado na internet, o Sistema de Recomendação deve indicar produtos relacionados, mas não por seus dados textuais (preço, modelo, marca, loja) e, sim, por sua aparência física (formato, cor, textura, etc). 
 
 **Tabela 1**: Visão geral das métricas usadas para avaliar métodos de classificação.  
 - **VP**: Verdadeiros Positivos  
